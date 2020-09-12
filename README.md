@@ -5,6 +5,7 @@
 + postgresql - для работы с PostgreSQL
 + javax.servlet - для работы с servlet
 + jackson - для работы с JSON
++ jQuery
 
 Структура проекта:
 - web

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="outputList" method="POST">
+            Sort: <p><input name="sort" type="radio" value="without" checked> без сортировки</p>
+            <p><input name="sort" type="radio" value="number"> по номеру</p>
+            <p><input name="sort" type="radio" value="brand"> по марке</p>
+            <p><input name="sort" type="radio" value="year"> по году выпуска</p>
+            <p><input name="sort" type="radio" value="firstName"> по имени</p>
+            <p><input type="submit" value="Вывести список автомобилей"></p>
+        </form>
+        <form action="addCar" method="POST">
+            <p><input type="submit" value="Добавить автомобиль"></p>
+        </form>
+        <form action="statisticsBD" method="POST">
+            <p><input type="submit" value="Статистика базы"></p>
+        </form>
+    </body>
+</html>

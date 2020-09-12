@@ -1,18 +1,17 @@
 # DirectoryCar 
 СУБД - PostgreSQL   
-Сервер - Apache Tomcat 9
+Сервер - Apache Tomcat 9  
 Библиотеки: 
 + postgresql - для работы с PostgreSQL
 + javax.servlet - для работы с servlet
 + jackson - для работы с JSON
 
 Структура проекта:
-- страницы
+- web
   + index.html - главная страница
   + outListCar.jsp - страница отображения все автомобилей
   + addCar.jsp - страница для добавления 
   + statistics.jsp - страница отображения статистики
-- js
   + ajax.js - ajax-запрос для отправки JSON
 - package bd - работа с БД 
   + ConnectionBD - подключение к БД
